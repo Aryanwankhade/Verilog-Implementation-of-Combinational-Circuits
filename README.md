@@ -13,18 +13,6 @@ Key Characteristics:
 
 ✅ Pure logic functions
 
-📋 Complete Circuit List
-Circuit	Type	Inputs	Outputs	Select Lines	Page
-MUX	2:1	2 data	1	1	1
-MUX	4:1	4 data	1	2	2
-DEMUX	1:2	1 data	2	1	3
-DEMUX	1:4	1 data	4	2	4
-ENCODER	4:2	4	2	-	5
-ENCODER	8:3	8	3	-	6
-DECODER	2:4	2	4	-	7
-DECODER	3:8	3	8	-	8
-COMBINED	All	Various	Various	Various	9
-
 🤝 Contributing
 Contributions are welcome! Feel free to:
 
@@ -94,7 +82,7 @@ Open source contributors
 📧 Contact
 For questions or suggestions:
 
-📧 Email: your.email@example.com
+📧 Email: aryanwankhade0@gmail.com
 
 🐛 Issues: GitHub Issues page
 
