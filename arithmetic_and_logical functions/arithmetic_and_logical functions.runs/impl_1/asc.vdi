@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Mar  8 18:06:12 2026
+# Process ID         : 15428
+# Current directory  : D:/vivado_projects/arithmetic_and_logical functions/arithmetic_and_logical functions.runs/impl_1
+# Command line       : vivado.exe -log asc.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source asc.tcl -notrace
+# Log file           : D:/vivado_projects/arithmetic_and_logical functions/arithmetic_and_logical functions.runs/impl_1/asc.vdi
+# Journal file       : D:/vivado_projects/arithmetic_and_logical functions/arithmetic_and_logical functions.runs/impl_1\vivado.jou
+# Running On         : LAPTOP-AVQG6N31
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13450HX
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 25463 MB
+# Swap memory        : 1677 MB
+# Total Virtual      : 27141 MB
+# Available Virtual  : 5113 MB
+#-----------------------------------------------------------
+source asc.tcl -notrace
+Command: link_design -top asc -part xc7a12ticsg325-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 706.992 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 808.117 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 808.961 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a12ti'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net c_out_OBUF has multiple drivers: c_out_OBUF_inst_i_1/O, and c_out_OBUF_inst_i_2/O.
+INFO: [Project 1-461] DRC finished with 1 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.400 . Memory (MB): peak = 857.980 ; gain = 20.145
+INFO: [Common 17-83] Releasing license: Implementation
+9 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  8 18:06:21 2026...

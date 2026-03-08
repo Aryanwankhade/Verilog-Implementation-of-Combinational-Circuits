@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../vivado/2025.2/Vivado/data/rsb/busdef" \
+"asc_tb_func_synth.v" \
+"../../../../../arithmetic_and_logical functions.srcs/sim_1/new/asc_tb.v" \
+
+# Do not sort compile order
+nosort
